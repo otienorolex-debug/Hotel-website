@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujumbe Hotel</title>
+    <h1>Welcome to Ujumbe Hotels</h1>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#" class="nav-about">About us</a>
+    <a href="#" class="nav-home">Home</a>
+    <a href="#" class="nav-services">Services</a>
+    <a href="#" class="nav-contacts">Contacts</a>
+<div class="About-us">
+    <h2>About us</h2>
+    <p>We are a group of hotels offering all type of delicies.</p>
+    <img src="hotel.jpeg">
+</div>
+<div class="Home">
+    <h3>Home</h3>
+    <p>We are an hotel with lots of experienced chefs offering quality foods</p>
+</div>
+<div class="services">
+    <h4>Services</h4>
+    <p>Our services include;</p>
+    <ol>
+     <li>Fried Chicken</li>
+     <li>Beef Stews</li>
+     <li>Steamed Chicken</li>
+    </ol>
+</div>
+<div class="Contacts">
+    <h4>Contacts</h4>
+    <p>0745183180</p>
+    <p> email adress:rolexkelly254@gmail.com</p>
+</div>
+  <form action="https://formspree.io" method="POST" class="booking-form">
+        <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Inquiry / Booking Details:</label>
+            <textarea id="message" name="message" rows="5" placeholder="I would like to book a room for 2 nights..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Inquiry</button>
+    </form>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
